@@ -20,6 +20,7 @@ nav {
     height: 85%;
     line-height: 60px;
     border: 1px green dashed;
+    overflow: hidden;
     //background-color: #f5f5f5;
 }
 
@@ -30,8 +31,11 @@ nav {
     height: 9%;
     width: 100%;
     
-
     p {
         display: inline;
     }
+}
+
+.col-sm {
+    border: 1px red dashed;
 }
